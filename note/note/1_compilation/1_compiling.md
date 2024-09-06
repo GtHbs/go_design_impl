@@ -1,8 +1,6 @@
 ![1_outline.png](../../img/1_outline.png)
 ---
 
-## 编译过程
-
 ### 预备知识
 
 ---
