@@ -13,4 +13,27 @@
 
 #### go
 
-> go的词法分析是通过`src/cmd/compile/internal/syntax/scanner.go`
+> go的词法分析是通过`src/cmd/compile/internal/syntax/scanner.go`中的scanner结构体实现的
+
+### 语法分析
+
+> 根据某种特定的形式文法对token序列构成的输入文本进行分析并确定起语法结果的过程。
+> 
+> 语法分析的过程会使用自顶向下或自底向上的方式进行推导。
+
+
+#### 文法
+
+
+
+
+
+
+
+
+
+
+
+
+
+
