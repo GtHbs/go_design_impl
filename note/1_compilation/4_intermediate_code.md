@@ -1,5 +1,5 @@
 ### 概述
-![11_intermediate_code.png](../../img/11_intermediate_code.png)
+![11_intermediate_code.png](img/11_intermediate_code.png)
 > 中间代码是编译器或者虚拟机使用的语言，可以帮助分析计算机程序。
 > 编译过程中编译器会将源代码转换成中间代码，然后再将中间代码转换成机器码。
 
@@ -14,7 +14,7 @@
 
 ### 遍历和替换
 
-![12_keyword_replace.png](../../img/12_keyword_replace.png)
+![12_keyword_replace.png](img/12_keyword_replace.png)
 
 > 遍历抽象语法树是将部分关键词替换为函数调用
 

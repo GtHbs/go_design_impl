@@ -1,4 +1,4 @@
-![1_outline.png](../../img/1_outline.png)
+![1_outline.png](img/1_outline.png)
 ---
 
 ### 预备知识
@@ -11,7 +11,7 @@
 > 抽象语法树中的每一个节点都表示源代码中的一个元素，每一棵子树都表示一个语法元素。
 > 如下图所示：
 
-![2_ast.png](../../img/2_ast.png)
+![2_ast.png](img/2_ast.png)
 
 #### 静态单赋值
 
@@ -33,7 +33,7 @@
 
 ### 编译原理
 
-![3_compile.png](../../img/3_compile.png)
+![3_compile.png](img/3_compile.png)
 
 #### 词法和语法分析
 
@@ -48,7 +48,7 @@
 > 语法分析的输入是词法分析生成的token序列，按照go语言定义好的语法规约进行解析，然后生成一个SourceFile结构，即AST
 
 > 每一个go文件会对应一个AST
-![4_file_to_ast.png](../../img/4_file_to_ast.png)
+![4_file_to_ast.png](img/4_file_to_ast.png)
 
 ##### 类型检查
 
@@ -64,12 +64,12 @@
 > 
 > 还会展开和改写一些内建的函数，例如`make`在该阶段会根据子树的结构被替换成`runtime.makeslice`或`runtime.makechan`等函数
 
-![5_make_rewrite.png](../../img/5_make_rewrite.png)
+![5_make_rewrite.png](img/5_make_rewrite.png)
 
 
 ##### 中间代码生成
 
-![6_mid_code.png](../../img/6_mid_code.png)
+![6_mid_code.png](img/6_mid_code.png)
 
 > 使用`cmd/compile/internal/gc.compileFunctions`编译go函数，所有待编译的函数会放入到队列中，然后启动多个goroutine进行消费
 > 
@@ -78,7 +78,7 @@
 
 ##### 机器码生成
 
-![7_go_compile.png](../../img/7_go_compile.png)
+![7_go_compile.png](img/7_go_compile.png)
 
 
 ### 编译器入口

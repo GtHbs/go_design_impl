@@ -8,7 +8,7 @@
 
 > lex文件不能直接使用，需要使用lex命令将其转为C语言代码，然后编译为可执行文件
 
-![8_lex_compile.png](../../img/8_lex_compile.png)
+![8_lex_compile.png](img/8_lex_compile.png)
 
 
 #### go

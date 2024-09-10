@@ -1,5 +1,5 @@
 ### 强弱类型
-![9_strong_weak_type.png](../../img/9_strong_weak_type.png)
+![9_strong_weak_type.png](img/9_strong_weak_type.png)
 
 - 强类型：在编译期间有严格的类型限制，即编译器会在编译期间发现变量赋值、返回值和函数调用时的类型错误
 - 弱类型：在出现类型错误时可能会在运行时进行隐式的类型转换，在类型转换时可能会造成运行错误
@@ -24,7 +24,7 @@
 ### 执行过程
 
 #### make 
-![10_omake.png](../../img/10_omake.png)
+![10_omake.png](img/10_omake.png)
 > 在类型检查阶段会根据创建的类型将make替换成特定的函数，生成中间代码的过程就不会再处理make类型的节点了，
 > 而是会依据生成的细分类型处理。
 
