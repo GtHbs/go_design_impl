@@ -1,10 +1,9 @@
 package main
 
-import (
-	"go_design_impl/src/go_base_3"
-)
+import "go_design_impl/src/other"
 
 func main() {
-	go_base_3.UsingPanic()
+	//simple_cgo.HelloCgo()
 	//fmt.Println(2 % 2)
+	other.SnowFlakeMain()
 }
